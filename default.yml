@@ -33,14 +33,14 @@ Layout/FirstMethodArgumentLineBreak:
 Layout/MultilineMethodArgumentLineBreaks:
   Enabled: true
 
+Naming/VariableNumber:
+  EnforcedStyle: snake_case
+  AllowedIdentifiers: ['auth0']
+
 RSpec/ContextWording:
   Prefixes:
     - when
     - and
-
-Naming/VariableNumber:
-  EnforcedStyle: snake_case
-  AllowedIdentifiers: ['auth0']
 
 RSpec/ExampleLength:
   Enabled: false
@@ -61,7 +61,7 @@ RSpec/StubbedMock:
   Enabled: false
 
 RSpec/MultipleMemoizedHelpers:
-  Max: 10
+  Max: 20
 
 RSpec/FilePath:
   Exclude:
